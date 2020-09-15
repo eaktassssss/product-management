@@ -6,8 +6,7 @@
     <br><br>
    <app-progrees></app-progrees>
     <br><br>
-    <h3 class="text-center">Eklenen Ürünlerin Listesi</h3>
-    <hr>
+    
    <app-products></app-products>
   </div>
 
