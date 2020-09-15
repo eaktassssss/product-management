@@ -4,7 +4,7 @@
     <hr>
    <app-new-product></app-new-product>
     <br><br>
-   <app-progrees></app-progrees>
+   <app-progress></app-progress>
     <br><br>
     
    <app-products></app-products>
@@ -15,11 +15,11 @@
 
 <script>
 import  NewProduct from './components/products/NewProduct'
-import  Progrees from './components/products/Progrees'
+import  Progress from './components/products/Progress'
 import  Products from './components/products/Products'
 export default {
   components:{
-    appNewProduct:NewProduct,appProgrees:Progrees,appProducts:Products},
+    appNewProduct:NewProduct,appProgress:Progress,appProducts:Products},
 
 }
 </script>

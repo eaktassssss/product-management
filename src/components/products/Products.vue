@@ -40,7 +40,7 @@ export default {
     eventBus.$on("productAdded", (product) => {
       if (this.productList.length < 10) {
         this.productList.push(product);
-        eventBus.$emit("progreesUpdate", this.productList.length);
+        eventBus.$emit("progressCounter", this.productList.length);
       } else {
         alert("Ürün ekleme sayısını aştınız!");
       }

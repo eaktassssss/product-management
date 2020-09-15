@@ -15,7 +15,7 @@
      }
    },
    created() {
-     eventBus.$on("progreesUpdate", (productList) =>{
+     eventBus.$on("progressCounter", (productList) =>{
          this.currentItem=productList;
          this.progress=productList*10;
      });
